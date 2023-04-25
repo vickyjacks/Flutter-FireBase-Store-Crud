@@ -1,31 +1,39 @@
+import 'package:crud_firebase/view/add_student.dart';
 import 'package:flutter/material.dart';
-
-import 'add_student.dart';
 import 'list_student.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+class HomePage extends StatefulWidget {
+  HomePage({Key? key}) : super(key: key);
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  _HomePageState createState() => _HomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text("Fire Store dsf cmjc cxweu cwui cw icec "),
-            Spacer(),
-            ElevatedButton(onPressed: (){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>AddStudent()));
-            }, child: Icon(Icons.add))
+            Text('Flutter FireStore CRUD'),
+            ElevatedButton(
+              onPressed: () => {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => AddStudentPage(),
+                  ),
+                )
+              },
+              child: Text('Add', style: TextStyle(fontSize: 20.0)),
+              style: ElevatedButton.styleFrom(primary: Colors.deepPurple),
+            )
           ],
         ),
       ),
-      body: ListStudent() ,
+      body: ListStudentPage(),
     );
   }
 }
