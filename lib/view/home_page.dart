@@ -17,7 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Row(
           children: [
-            Text("Fire Store"),
+            Text("Fire Store dsf cmjc cxweu cwui cw icec "),
             Spacer(),
             ElevatedButton(onPressed: (){
               Navigator.of(context).push(MaterialPageRoute(builder: (context)=>AddStudent()));
