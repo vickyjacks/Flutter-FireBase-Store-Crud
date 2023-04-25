@@ -1,77 +1,34 @@
 {
   "project_info": {
-    "project_number": "149356279197",
-    "project_id": "employee-portal-57bc3",
-    "storage_bucket": "employee-portal-57bc3.appspot.com"
+    "project_number": "523639579232",
+    "project_id": "flutter-crud-f942a",
+    "storage_bucket": "flutter-crud-f942a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:149356279197:android:edcdeb6f65d6535823ab74",
+        "mobilesdk_app_id": "1:523639579232:android:0f0c9b40a0eba0a04ad905",
         "android_client_info": {
           "package_name": "com.example.crud_firebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "149356279197-g600u4deo2kcgm23ib8kmje3ivenpnpg.apps.googleusercontent.com",
+          "client_id": "523639579232-o4vikr1rmoeqi632vlefieq60cbd3squ.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAAZeDs0rcxbg1HIEyZiIEIWtuHQ3eTHb0"
+          "current_key": "AIzaSyDCO4giTr5n_3lxLT-WAaw1SD89YaEElDA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "149356279197-g600u4deo2kcgm23ib8kmje3ivenpnpg.apps.googleusercontent.com",
+              "client_id": "523639579232-o4vikr1rmoeqi632vlefieq60cbd3squ.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "149356279197-p8q38j9aqkbn2s882lmvlti31265mi52.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.employeePortal"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:149356279197:android:90b320e997f7a41e23ab74",
-        "android_client_info": {
-          "package_name": "com.example.employee_portal"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "149356279197-g600u4deo2kcgm23ib8kmje3ivenpnpg.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAAZeDs0rcxbg1HIEyZiIEIWtuHQ3eTHb0"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "149356279197-g600u4deo2kcgm23ib8kmje3ivenpnpg.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "149356279197-p8q38j9aqkbn2s882lmvlti31265mi52.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.employeePortal"
-              }
             }
           ]
         }
